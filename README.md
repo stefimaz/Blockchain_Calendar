@@ -1,15 +1,20 @@
-# Basic Sample Hardhat Project
+![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&width=1000&height=200&section=header&text=Blockchain%20Calendar%20&fontSize=30&fontColor=black)
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+<!-- header is made with: https://github.com/kyechan99/capsule-render -->
 
-Try running some of the following tasks:
+[Stephane Masyn](https://www.linkedin.com/in/stephane-masyn-35b16817a/) [<img src="https://cdn2.auth0.com/docs/media/connections/linkedin.png" alt="LinkedIn -  Stephane Masyn" width=15/>](https://linkedin.com/in/stephane-masyn-35b16817a/)
+                                 
 
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
-```
+---
+
+### Table of Contents
+
+* [Overview](#overview)
+* [Requirements](#requirements)
+* [Visualization](#visualization)
+* [User Experience](#user-experience)
+* [License](#license)  
+
+---
+
+## Overview
