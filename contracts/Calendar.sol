@@ -3,7 +3,7 @@ pragma solidity ^0.8.0;
 
 contract CalendarEth {
     uint256 rate;
-    address payable owner;
+    address payable public owner;
 
     struct Appointment {
         string title; // title of the meeting
@@ -41,7 +41,7 @@ contract CalendarEth {
         appointment.title = title;
         appointment.startTime = startTime;
         appointment.endTime = endTime;
-        appointment.amountPaid = (((endTime - startTime) / 60) * 15) * rate;
+        appointment.amountPaid = ((endTime - startTime) / 4) * rate;
         appointment.attendee = msg.sender; // address of person calling contract
 
         require(

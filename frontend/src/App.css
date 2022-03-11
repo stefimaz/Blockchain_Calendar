@@ -26,6 +26,18 @@ button{
   cursor: pointer;
 }
 
+#admin{
+  background-color: white;
+  padding: 20px;
+  margin: 20px auto;
+  color: blue;
+}
+
+#setting-button{
+  background: limegreen;
+  color: white;
+}
+
 .App-header {
   background-color: #467ff3;
   min-height: 100vh;

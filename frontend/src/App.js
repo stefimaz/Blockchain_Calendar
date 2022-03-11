@@ -46,7 +46,7 @@ function App() {
         <h1>Blockchain Calendar</h1>
         <div id="slogan">web3 appointment scheduling</div>
         {!account && <button onClick={connect}>connect wallet</button>}
-        {account && <Calendar />}
+        {account && <Calendar account={account} />}
       </header>
     </div>
   );
