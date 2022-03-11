@@ -41,7 +41,7 @@ contract CalendarEth {
         appointment.title = title;
         appointment.startTime = startTime;
         appointment.endTime = endTime;
-        appointment.amountPaid = ((endTime - startTime) / 4) * rate;
+        appointment.amountPaid = ((endTime - startTime) / 60) * rate;
         appointment.attendee = msg.sender; // address of person calling contract
 
         require(

@@ -14,7 +14,7 @@ import CircularProgress from '@mui/material/CircularProgress';
 //import { getEnvironmentData } from 'worker_threads';
 
 
-const contractAddress = "0x3703Bacef74842Beb8EBC70205bDEa4dEe55694d";
+const contractAddress = "0xCed15A861EED411C19603752E527De9cdf60F261";
 const contractABI = abi.abi;
 const provider = new ethers.providers.Web3Provider(window.ethereum);
 const contract = new ethers.Contract(contractAddress, contractABI, provider.getSigner());
@@ -82,7 +82,7 @@ const Calendar = (props) => {
         setMined(false);
 
         try {
-            const cost = ((endTime - startTime) / 4) * (rate * 100) / 100;
+            const cost = ((endTime - startTime) / 60) * (rate * 100) / 100;
             const msg = { value: ethers.utils.parseEther(cost.toString()) };
             let transaction = await contract.createAppointment(title, startTime, endTime, msg);
 
@@ -115,19 +115,19 @@ const Calendar = (props) => {
         },
         {
             value: 0.02,
-            label: '0.02 ETH/15 Min',
+            label: '0.02 ETH/Min',
         },
         {
             value: 0.04,
-            label: '0.04 ETH/15 Min',
+            label: '0.04 ETH/Min',
         },
         {
             value: 0.06,
-            label: '0.06 ETH/15 Min',
+            label: '0.06 ETH/Min',
         },
         {
             value: 0.08,
-            label: '0.08 ETH/15 Min',
+            label: '0.08 ETH/Min',
         },
         {
             value: 0.1,
@@ -140,7 +140,7 @@ const Calendar = (props) => {
             <Box>
                 <h3>Set Your Quaterly Rate</h3>
                 <Slider defaultValue={parseFloat(rate)}
-                    step={0.01}
+                    step={0.001}
                     min={0}
                     max={.1}
                     marks={marks}
