@@ -44,7 +44,10 @@ contract CalendarEth {
         appointment.amountPaid = (((endTime - startTime) / 60) * 15) * rate;
         appointment.attendee = msg.sender; // address of person calling contract
 
-        require(msg.value >= appointment.amountPaid, "We require more ether"); // validate the amount of ETH
+        require(
+            msg.value >= appointment.amountPaid,
+            "This appointment requires more ether"
+        ); // validate the amount of ETH
 
         (bool success, ) = owner.call{value: msg.value}(""); // send ETH to the owner
         require(success, "Failed to send Ether");
