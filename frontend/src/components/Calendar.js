@@ -14,7 +14,7 @@ import CircularProgress from '@mui/material/CircularProgress';
 //import { getEnvironmentData } from 'worker_threads';
 
 
-const contractAddress = "0xCed15A861EED411C19603752E527De9cdf60F261";
+const contractAddress = "0x5e9b6EDce78664680d62E0F493557E0DC1FAB6B9";
 const contractABI = abi.abi;
 const provider = new ethers.providers.Web3Provider(window.ethereum);
 const contract = new ethers.Contract(contractAddress, contractABI, provider.getSigner());
@@ -138,7 +138,7 @@ const Calendar = (props) => {
     const Admin = () => {
         return <div id="admin">
             <Box>
-                <h3>Set Your Quaterly Rate</h3>
+                <h3>Set Your Minutely Rate</h3>
                 <Slider defaultValue={parseFloat(rate)}
                     step={0.001}
                     min={0}
