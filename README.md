@@ -71,6 +71,13 @@ Installing hardhat
 
 ## Visualisation
 
+![Calendar loading page](./Images/Connect_wallet.png)
+![Conecting Metamask](./Images/Metamask_connect.png)
+![Approving connection](./Images/Sign_connection.png)
+![Booking appppointments](./Images/Book_appointment.png)
+![Admin Fee Setup](./Images/Admin_setup.png)
+
+
 ## User experience
 
 
