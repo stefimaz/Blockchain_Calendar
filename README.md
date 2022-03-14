@@ -10,8 +10,8 @@
 ### Table of Contents
 
 * [Overview](#overview)
-* [Requirements](#requirements)
 * [Teck Stack](#tech-stack)
+* [Requirements](#requirements)
 * [Visualization](#visualization)
 * [User Experience](#user-experience)
 * [License](#license)  
@@ -27,21 +27,6 @@ Calendly as become a big part of our profetional lives and a new way to book you
 The creation of a Blockchain calendar used by profetionals, freelancers, consultants,... colecting their fee at the time of booking. This would resolve a few problems, including the No shows or fake booking wasting your time or taking away that particular time slot from someone else. 
 
 The difference will be that the client will confirm the appointment directly when booking by commiting and paying in Ethereum. 
-
-## Requirements
-
-Hardhat is distributed as an npm (Node Package Manager) package and uses the Node.js ecosystem. First make sure we have a recent version of node and npm. Open a terminal and enter some commands to check:
-
-```bash
-  node -v
-  npm -v
-```
-If you don’t already have the node command, download the nodejs LTS version for your operating system [Here](https://nodejs.org/en/). The npm command comes with nodejs.
-
-Installing hardhat
-```bash
-  npm install --save-dev hardhat
-```
 
 ## Tech Stack
 
@@ -68,3 +53,28 @@ Material UI is a popular component library that we can use to add complex UI com
 
 #### Ethers.js
 We want to interact and call our smart contract from our UI.
+
+## Requirements
+
+Hardhat is distributed as an npm (Node Package Manager) package and uses the Node.js ecosystem. First make sure we have a recent version of node and npm. Open a terminal and enter some commands to check:
+
+```bash
+  node -v
+  npm -v
+```
+If you don’t already have the node command, download the nodejs LTS version for your operating system [Here](https://nodejs.org/en/). The npm command comes with nodejs.
+
+Installing hardhat
+```bash
+  npm install --save-dev hardhat
+```
+
+## Visualisation
+
+## User experience
+
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
