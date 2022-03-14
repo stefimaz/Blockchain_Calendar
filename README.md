@@ -28,6 +28,21 @@ The creation of a Blockchain calendar used by profetionals, freelancers, consult
 
 The difference will be that the client will confirm the appointment directly when booking by commiting and paying in Ethereum. 
 
+## Requirements
+
+Hardhat is distributed as an npm (Node Package Manager) package and uses the Node.js ecosystem. First make sure we have a recent version of node and npm. Open a terminal and enter some commands to check:
+
+```bash
+  node -v
+  npm -v
+```
+If you don’t already have the node command, download the nodejs LTS version for your operating system [Here](https://nodejs.org/en/). The npm command comes with nodejs.
+
+Installing hardhat
+```bash
+  npm install --save-dev hardhat
+```
+
 ## Tech Stack
 
 #### Hardhat
