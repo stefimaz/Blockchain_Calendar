@@ -13,7 +13,6 @@
 * [Teck Stack](#tech-stack)
 * [Requirements](#requirements)
 * [Visualization](#visualization)
-* [User Experience](#user-experience)
 * [License](#license)  
 
 ---
@@ -22,11 +21,11 @@
 
 If you’ve spent any time on Tech Twitter or Crypto Twitter lately, “web3” is the hot topic. There is currently a battle between proponents of web3 and its critics. Its proponents claim web3 is revolutionary and is the future of the Internet. Its critics think it is at best a buzzword and at worst – it will destroy planet Earth. As with most things these days, the extremes go a bit too far and the truth is probably somewhere in the middle.
 
-Calendly as become a big part of our profetional lives and a new way to book your appointments or have clients book directly on your calendar. It's a great tool but something is missing from it out of the box. What if you could have the person setting up the appointment commit to it by paying when booking!
+Calendly has become a big part of our professional lives and a new way to book your appointments or have clients book directly on your calendar. It's a great tool but something is missing from it out of the box. What if you could have the person setting up the appointment commit to it by paying when booking!
 
-The creation of a Blockchain calendar used by profetionals, freelancers, consultants,... colecting their fee at the time of booking. This would resolve a few problems, including the No shows or fake booking wasting your time or taking away that particular time slot from someone else. 
+The creation of a Blockchain calendar used by profetionals, freelancers, consultants,... collecting their fee at the time of booking. This would resolve a few problems, including the No shows or fake booking wasting your time or taking away that particular time slot from someone else. 
 
-The difference will be that the client will confirm the appointment directly when booking by commiting and paying in Ethereum. 
+The difference will be that the client will confirm the appointment directly when booking by committing and paying in Ethereum. 
 
 ## Tech Stack
 
@@ -77,8 +76,6 @@ Installing hardhat
 ![Booking appppointments](./Images/Book_appointment.png)
 ![Admin Fee Setup](./Images/Admin_setup.png)
 
-
-## User experience
 
 
 ## License
