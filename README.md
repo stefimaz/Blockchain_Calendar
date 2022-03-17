@@ -68,7 +68,7 @@ Installing hardhat
   npm install --save-dev hardhat
 ```
 
-## Visualisation
+## Visualization
 
 ![Calendar loading page](./Images/Connect_wallet.png)
 ![Conecting Metamask](./Images/Metamask_connect.png)
